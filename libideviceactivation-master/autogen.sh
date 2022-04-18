@@ -24,3 +24,4 @@ test -z "$srcdir" && srcdir=.
 if [ -z "$NOCONFIGURE" ]; then
   $srcdir/configure "$@"
 fi
+
