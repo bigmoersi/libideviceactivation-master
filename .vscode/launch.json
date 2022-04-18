@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        Base64
+        {
+            "name": "Python: Anfügen",
+            "type": "python",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 80
+            },
+            "pathMappings": [
+                {Wait-Debugger
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "."
+                }
+            ],
+            "justMyCode": true
+        },
+        {
+            "type": "node-terminal",
+            "name": "JavaScript Debug Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
