@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  libideviceactivationmaster:
+    image: libideviceactivationmaster
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 80:80

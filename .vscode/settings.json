@@ -11,5 +11,8 @@
     "python.testing.pytestArgs": [
         "libideviceactivation-master"
     ],
-    "C_Cpp.errorSquiggles": "Enabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "yaml.schemas": {
+        "https://json.schemastore.org/sourcehut-build-0.65.0.json": "file:///c%3A/Users/bigba/OneDrive/Desktop/libideviceactivation-master/libideviceactivation-master/.github/workflows/build.yml"
+    }
 }
